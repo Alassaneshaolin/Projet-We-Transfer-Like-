@@ -1,0 +1,6 @@
+{
+    "name": "stagiaire/sen_transfert",
+    "require": {
+        "twig/twig": "2.0"
+    }
+}

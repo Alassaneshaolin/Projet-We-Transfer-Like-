@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% block title %}{% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="View/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="View/Bootstrap/css/style.css" />
+    <script src="View/Bootstrap/js/jquery.min.js"></script>
+<body>
+{# HEADER #}
+    {% block header %}{% endblock %}
+{# FIN HEADER #}
+
+{# ACCUEIL #}
+    {% block accueil %}{% endblock %}
+    {% block contenuAccueil %}{% endblock %}
+{# FIN ACCUEIL #}
+
+{% block formulaire %}{% endblock %}
+{% block about %}{% endblock %}
+{% block politique %}{% endblock %}
+
+
+<script src="View/Bootstrap/js/bootstrap.min.js"></script>
+<script src="View/Bootstrap/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{% extends 'pages/layout.twig' %}
+
+{# Title #}
+{% block title %}
+    <title> Politique de confidentialité </title>
+{% endblock %}
+
+{# Header #}
+{% block header %}
+<header>
+    <a href="accueil" id="logo">
+        <img alt="" src="View/images/small-logo.png">
+    </a>
+    <div id="hamburger">
+        <div id="hamburger-content">
+            <a href="about" class="button">A propos</a>
+            <a href="politique" class="button">Politique de confidentialité</a>
+        </div>
+        <button id="hamburger-button">&#9776;</button>
+        <div id="hamburger-sidebar">
+            <div id="hamburger-sidebar-header"></div>
+            <div id="hamburger-sidebar-body"></div>
+        </div>
+        <div id="hamburger-overlay"></div>
+    </div>
+</header>
+{% endblock %}
+
+{# Body #}
+{% block politique %}
+<h1>Politique de confidentialité</h1>
+{% endblock %}
